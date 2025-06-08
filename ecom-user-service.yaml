@@ -6,3 +6,10 @@ spring:
     url: jdbc:mysql://localhost:3306/userdb
     username: root
     password: admin
+    application:
+    name: ecom-user-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
