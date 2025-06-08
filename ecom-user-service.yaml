@@ -5,4 +5,4 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/userdb
     username: root
-    password: yourpass
+    password: admin
